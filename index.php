@@ -8,13 +8,11 @@ PHP first pracital course class
 </html>
 
 <?php
+//Arithematical Operators
 $int1 =8;
 $int2 =7; 
 $ans1 = $int1 + $int2;
 echo $ans1;
-echo "<br>";
- 
-$ans1 = $int1 + $ans1;
 echo "<br>";
 
 $ans2 = $int1 - $int2;
