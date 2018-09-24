@@ -4,16 +4,31 @@
 <body>
 PHP first pracital course class
 <br>
-<?php
-echo"<p>php inside html</p>";
-
-?>
 </body>
 </html>
 
 <?php
-echo "this is echo contect  ";
-echo "<h2>using html inside html</h2>";
-print "this is print content ";
+$int1 =8;
+$int2 =7; 
+$ans1 = $int1 + $int2;
+echo $ans1;
+echo "<br>";
+ 
+$ans1 = $int1 + $ans1;
+echo "<br>";
+
+$ans2 = $int1 - $int2;
+echo $ans2;
+echo "<br>";
+
+$ans3 =$int1 /  $int2;
+echo $ans3;
+echo "<br>";
+
+$ans4 = $int1 % $int2;
+echo $ans4;
+echo "<br>";
+ 
+echo ++$ans4;
 
 ?>
