@@ -8,21 +8,28 @@ PHP first pracital course class
 </html>
 
 <?php
-//switch case 
-$var1 = "mark";
-switch ($var1) {
-    case "jeo":
-        $result =" the value of the var1 is jeo";
-        break;
-    case "mark":
-    $result = "the value is mark";
-        break;
-    case "shahzaib":
-    $result = "the value is abdullah";
-        break;
-    default:
-    $result = "this is the defulat value";
-        break;
+//loops
+
+//FOR LOOPS
+for($var1 =1; $var1 < 10 ; $var1++){
+    echo "<p>$var1. this is for loop</P>";
+
+    echo "<p>". $var1. "....this is Concatenation rule ";
 }
-print $result;
+// WHILE LOOP
+ $var2 =1;
+ while($var2 <= 10){
+    
+    echo "<p>$var2. this is while loop</P>";
+  $var2++;}
+
+  
+// DO WHILE 
+  $var3 = 1;
+  do{
+    echo "<p>$var3. this is while loop</P>";
+    $var3++;
+}
+  While ($var3 <=10);
+
 ?>
