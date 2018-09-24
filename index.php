@@ -8,11 +8,21 @@ PHP first pracital course class
 </html>
 
 <?php
-//conditional statements 
-if (5 < 7) {
-    echo "its working ";
-} else {
-    echo "not working";
+//switch case 
+$var1 = "jeo";
+switch ($var1) {
+    case "jeo":
+        echo " the value of the var1 is jeo";
+        break;
+    case "mark":
+        echo "the value is mark";
+        break;
+    case "shahzaib":
+        echo "the value is abdullah";
+        break;
+    default:
+        echo "this is the defulat value";
+        break;
 }
 
 ?>
